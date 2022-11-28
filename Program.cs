@@ -29,7 +29,6 @@ void CreatArray(int a, string[] arr)
 void CreatNewArray(int b, string[] Array)
 {
     int l = 0;
-
     for (int i = 0; i < arr.Length; i++)
     {
         if (arr[i].Length <= b)
@@ -38,10 +37,5 @@ void CreatNewArray(int b, string[] Array)
             l++;
         }
     }
-    Console.Write("[ ");
-    for (int j = 0; j < Array.Length; j++)
-    {
-        Console.Write(Array[j] + " ");
-    }
-    Console.WriteLine("]");
+    
 }
